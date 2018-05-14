@@ -233,6 +233,7 @@ app.patch('/comments/:id', (req, res) => {
 })
 
 
+// Eiminando usuarios
 app.delete('/users/:id', (req, res) => {
 	let params = req.params;
 	users.splice(params.id, 1);
